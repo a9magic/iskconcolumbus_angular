@@ -1,0 +1,347 @@
+/* Space out content a bit */
+body {
+    padding-bottom: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.nav > li.active > a {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+#tithe-img {
+    ALIGN: "left";
+    width: 45%;
+    height: 45%;
+    margin: 0 2% 1% 0;
+}
+
+.iskcon-seal {
+    width: 15%;
+    height: 25%;
+    margin: 0 2% 1% 0;
+}
+/*Contact sectiom*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+}
+
+.section-content{
+    text-align: center;
+
+}
+#contact{
+
+    font-family: 'Teko', sans-serif;
+    padding-top: 1%;
+    width: 100%;
+    height: 50%;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff , #eeeeee); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+.contact-section{
+    padding-top: 40px;
+}
+.contact-section .col-md-6{
+    width: 50%;
+}
+.section-header {
+    color: #ffffff;
+}
+.form-line{
+    border-right: 1px solid #B29999;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+.form-control{
+    font-size: 1.3em;
+    color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+    /* margin-top: px;*/
+}
+
+.submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+
+
+
+
+.scrollToTop{
+	text-align:center; 
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	bottom: 80px;
+	right:40px;
+	display:none;
+	z-index:1000;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+.navbar-static-top{
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+.editModelhide{
+    display:none;
+}
+
+.container{
+    padding-bottom: 40px;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.editInput{
+    border: 1px solid #e1e8ed;
+}
+
+.editTextarea{
+    width: 100%;
+    min-height: 140px;
+    border: 1px solid #e1e8ed;
+    padding: 10px;
+}
+
+
+.g1-social-icon {
+    padding: 17px 5px;
+    margin-left: -4px;
+}
+.g1-social-icon--facebook {
+  background-color: #3B5998;
+}
+
+.g1-social-icon--youtube {
+  background-color: #CD332D;
+}
+
+.g1-social-icon--instagram {
+  background-color: #517fa6;
+}
+
+.d-inline-block{
+    display: inline-block !important;
+    padding: 0 !important;
+    min-height: 19px !important;
+}
+
+
+@-webkit-keyframes g1_social_icon {
+    0%    { -webkit-transform: translate(0, 0); }
+    50%   { -webkit-transform: translate(0, -100%); }
+    51%   { -webkit-transform: translate(0, 100%); }
+    100%  { -webkit-transform: translate(0, 0); }
+}
+
+@-moz-keyframes g1_social_icon {
+    0%    { -moz-transform: translate(0, 0); }
+    50%   { -moz-transform: translate(0, -100%); }
+    51%   { -moz-transform: translate(0, 100%); }
+    100%  { -moz-transform: translate(0, 0); }
+}
+
+@-o-keyframes g1_social_icon {
+    0%    { -o-transform: translate(0, 0); }
+    50%   { -o-transform: translate(0, -100%); }
+    51%   { -o-transform: translate(0, 100%); }
+    100%  { -o-transform: translate(0, 0); }
+}
+
+@keyframes g1_social_icon {
+    0%    { transform: translate(0, 0); }
+    50%   { transform: translate(0, -100%); }
+    51%   { transform: translate(0, 100%); }
+    100%  { transform: translate(0, 0); }
+}
+.g1-social-icon:hover > img {
+    -webkit-animation: g1_social_icon 0.35s;
+    -moz-animation: g1_social_icon 0.35s;
+    -ms-animation: g1_social_icon 0.35s;
+    -o-animation: g1_social_icon 0.35s;
+    animation: g1_social_icon 0.35s;
+}
+
+/* Responsive: new changes */
+@media screen and (max-width: 940px) {
+    .pricing-table{
+        width: 100%;
+        padding: 0;
+    }
+    
+    #exTab3{
+        width: 100%;
+        padding: 0 30px 0 0px;
+    }
+}
+
+/* Responsive: new changes */
+@media screen and (max-width: 880px) {
+    .form-line{
+        border:0;
+    }
+    .wall{
+        padding: 40% 5% !important;
+    }
+    article#wall_1:before{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+    }
+    div#wall_2:before{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+    }
+    div#wall_3:before{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+    }
+    div.transbox p {
+        font-size: 14px;
+    }
+    
+    .navbar-top-links li .dropdown-toggle{
+        padding: 15px 2px;
+    }
+    
+    .g1-social-icon {
+        padding: 7px 0px;
+    }
+    
+    .social-set {
+        margin-left: 10px;
+    }
+    
+    .lgnmeta{
+        float: right;
+    }
+}
+
+/* Responsive: new changes */
+@media screen and (max-width: 760px) {
+    form.ng-pristine > div{
+        width: 100% !important;
+    }
+    .quick-bubble{
+        padding-top: 50px;
+    }
+    #page-wrapper{
+        padding-top: 10px !important;
+    }
+}

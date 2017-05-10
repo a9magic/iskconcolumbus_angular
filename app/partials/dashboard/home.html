@@ -1,0 +1,113 @@
+<div>
+    <!--<div class="row">-->
+    <!--<div class="col-lg-12">-->
+    <!--<h4 class="page-header"> ISKCON Columbus </h4>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; /.col-lg-12 &ndash;&gt;-->
+    <!--</div>-->
+    <!-- /.row -->
+    <br/>
+
+    <div class="row">
+        <stats number="" comments="" color="red" type="" bubble="1"></stats>
+        <stats number="" comments="" color="primary" type="" bubble="2"></stats>
+        <stats number="" comments="" color="yellow" type="" bubble="3"></stats>
+        <stats number="" comments="" color="primary" type="" bubble="4"></stats>
+        
+        <!--<stats number="6" comments="New Temple" color="red" type="align-center" bubble="1"></stats>-->
+        <!--<stats number="14" comments="Sunday Feast!" color="primary" type="cutlery" bubble="2"></stats>-->
+        <!--<stats number="18" comments="Our Schedule" color="yellow" type="calendar" bubble="3"></stats>-->
+        <!--<stats number="24" comments="Maha Satsang" color="primary" type="users" bubble="4"></stats>-->
+    </div>
+
+    <article class="wall" id="wall_1">
+        <div class="transbox">
+            <p>
+                <i>"This is Krishna conscious vision: <b>'Oh, there are so many skyscrapers.
+                    Why not construct a nice skyscraper temple of Krishna?'</b> This is Krishna consciousness."</i>
+                <br/>- Srila Prabhupada lecture in Bombay, Feb 25th, 1974
+            </p>
+        </div>
+    </article>
+    <script>
+        function myFunction() {
+            var d = new Date();
+            var day = d.getDay();
+            document.getElementById("demo").innerHTML = day;
+        }
+    </script>
+    <div id="content_1" class="content">
+        <script>
+            console.log("success");
+            var d = new Date();
+            var day = d.getDay();
+            //                document.getElementsByTagName("schedule").day = day;
+        </script>
+        <img class="" src="images/templeBanner.png" width="100%"/>
+
+        <!--<h3 style="margin: 1%">Temple Schedule</h3>-->
+        <schedule day=""></schedule>
+    </div>
+
+    <div id="wall_2" class="wall">
+        <div class="transbox">
+            <p>
+                There is no such requirement that japa should be done silently and chanting should be done differently.
+                Loudly or silently, everything is all right. There is no such restriction.
+                Only thing is that we should chant very attentively, hearing the vibration very distinctly.
+                <br/>- Srila Prabhupada
+            </p>
+        </div>
+    </div>
+    <div id="content_2" class="content">
+
+        <h1 style="text-align: center">Visit us</h1>
+
+        <div class="overlay" onClick="style.pointerEvents='none'"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.732827642373!2d-83.01912858510767!3d39.99207557941673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388eea2e220463%3A0x4f95e3ec9b88a211!2sISKCON+Temple!5e0!3m2!1sen!2sus!4v1494100183136"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="wall_3" class="wall">
+
+    </div>
+    <div id="content_3" class="content">
+        <section id="contact">
+            <div class="section-content">
+                <h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Contact Us</span></h1>
+                <h3>Phone: 614-421-1661<br/>
+                    *** Temple is open from 5am to 9pm</h3>
+            </div>
+            <div class="contact-section">
+                <div class="container">
+                    <form method="POST" action="lib/send.php">
+                        <div class="col-md-6 form-line">
+                            <div class="form-group">
+                                <label for="exampleInputUsername">Your name</label>
+                                <input type="text" class="form-control" id="exampleInputUsername" name="name" placeholder=" Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail">Email Address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail" name="email" placeholder=" Enter Email id">
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Mobile No.</label>
+                                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder=" Enter 10-digit mobile no.">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for ="description"> Message</label>
+                                <textarea  class="form-control" id="description" name="description" placeholder="Enter Your Message"></textarea>
+                            </div>
+                            <div>
+
+                                <button type="submit" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+        </section>
+    </div>
+</div>

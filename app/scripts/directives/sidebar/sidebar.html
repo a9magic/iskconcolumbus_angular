@@ -1,0 +1,220 @@
+<div class="navbar-default sidebar" role="navigation">
+    <img class="logo" src="images/iskconColumbusLogo.png" alt="Iskcon Columbus"/>
+    <div class="sidebar-nav navbar-collapse collapse">
+        <ul class="nav in" id="side-menu">
+            <sidebar-search></sidebar-search>
+            <li ng-class="{active: collapseVar==1}">
+                <a ui-sref="dashboard.home" ng-click="check(1)"><i class="fa fa-home fa-fw"></i> Home</a>
+            </li>
+            <!-- Srila Prabhupada-->
+            <li ng-class="{active: collapseVar==2}">
+                <a href="" ng-click="check(2)"><i class="fa fa-user-md fa-fw"></i> Srila Prabhupada<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=2">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.founderAcharya" class="fa fa-hand-o-right"> Founder Acharya</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Books</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography" class="fa fa-hand-o-right"> Lectures</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.icons" class="fa fa-hand-o-right"> Bhajan & Kirtan</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- /Srila Prabhupada-->
+
+            <!-- About us-->
+            <li ng-class="{active: collapseVar==3}">
+                <a href="" ng-click="check(3)"><i class="fa fa-user-secret fa-fw"></i> About Us<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=3">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Our Mission</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons" class="fa fa-hand-o-right"> Governance</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Speakers</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- /About Us-->
+
+            <!--&lt;!&ndash; Festivals&ndash;&gt;-->
+            <!--<li ng-class="{active: collapseVar==4}">-->
+                <!--<a href="" ng-click="check(4)"><i class="fa fa-calendar fa-fw"></i> Festivals<span-->
+                        <!--class="fa arrow"></span></a>-->
+                <!--<ul class="nav nav-second-level" collapse="collapseVar!=4">-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Maha Satsang</a>-->
+                    <!--</li>-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.buttons" class="fa fa-hand-o-right"> Sunday Feast</a>-->
+                    <!--</li>-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Upcoming Events</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--&lt;!&ndash; /Festivals&ndash;&gt;-->
+
+            <!-- About us-->
+            <li ng-class="{active: collapseVar==4}">
+                <a href="" ng-click="check(4)"><i class="fa fa-exclamation-circle fa-fw"></i> Services<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=4">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons" class="fa fa-home"> Home Programs (Satsang)</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications" class="fa fa-child"> Sunday School</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography" class="fa fa-book"> Book Distribution</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography" class="fa fa-group"> College Outreach</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- /About Us-->
+
+            <!-- Answers-->
+            <li ng-class="{active: collapseVar==5}">
+                <a href="" ng-click="check(5)"><i class="fa fa-graduation-cap fa-fw"></i> Answers<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=5">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Who is Krishna&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons">What is ISKCON&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications">What is Bhakti Yoga&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">Who is Lord Chaitanya&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.icons"> What is Kirtan &amp; Japa&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.grid">What is Prashadam&quest;</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.prashad">More Spiritual answers</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <!-- /Answers -->
+
+            <!-- Lectures-->
+            <li ng-class="{active: collapseVar==6}">
+                <a href="" ng-click="check(6)"><i class="fa fa-book fa-fw"></i> Lectures<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=6">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells" class="fa fa-music"> Audio</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons" class="fa fa-youtube-play"> Video</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- /Lectures-->
+
+            <!-- Collaborate-->
+            <li ng-class="{active: collapseVar==8}">
+                <a href="" ng-click="check(8)"><i class="fa fa-money fa-fw"></i> Donate<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=8">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.tithe" class="fa fa-credit-card"> Tithe - Support Monthly </a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.donate-new-temple" class="fa fa-align-center"> Donate for New Temple</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.sponsor-sunday-feast" class="fa fa-child"> Sponsor Sunday Feast</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.sponsor-book-distribution" class="fa fa-book"> Sponsor Book Distribution</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+
+    <!-- /.col-lg-4 -->
+    <div class="quick-bubble" style="text-align: center">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                New Temple - Project Details
+            </div>
+            <div class="panel-body ">
+                <img class="new-temple" src="images/NewTemple.jpg">
+            </div>
+            <div class="panel-footer">
+                More Details: <a href="http://new.krishnatemple.co" target="_blank"> New Temple </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.col-lg-4 -->
+
+    <!-- /.col-lg-4 -->
+    <div class="quick-bubble" style="text-align: center">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                Support Us
+            </div>
+            <div class="panel-body">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="K94FLQYGZG3W2">
+                    <input type="image"
+                           src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif"
+                         width="1" height="1">
+                </form>
+            </div>
+            <div class="panel-footer">
+                Please support us by making an Online Donation! <a role="button" data-toggle="modal" data-target="#donateModal" class="fa fa-question-circle"></a>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                test
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.col-lg-4 -->
+
+</div> 
+
+
+
