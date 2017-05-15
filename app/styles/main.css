@@ -7,10 +7,10 @@ body {
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+/*.footer {*/
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+/*}*/
 
 .row {
     margin-right: 0px;
@@ -102,7 +102,7 @@ body {
 }
 
 .iskcon-seal {
-    width: 15%;
+    width: 20%;
     height: 25%;
     margin: 0 2% 1% 0;
 }
