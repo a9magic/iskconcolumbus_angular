@@ -419,3 +419,59 @@ table.dataTable thead .sorting:after {
     width: 100%;
     height: 100%;
 }
+
+/*video lecture filter style
+*/
+
+.gallery-title
+{
+    font-size: 150%;
+    color: #b2001b;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.gallery-title:after {
+    /*content: "";*/
+    /*position: absolute;*/
+    /*width: 7.5%;*/
+    /*left: 46.5%;*/
+    /*height: 45px;*/
+    /*border-bottom: 1px solid #5e5e5e;*/
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #b2001b;
+    border-radius: 5px;
+    text-align: center;
+    color: #b2001b;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #b2001b;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b2001b;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #b2001b;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+

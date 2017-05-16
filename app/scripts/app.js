@@ -187,5 +187,18 @@ angular
                 templateUrl: 'partials/donate/sponsor-book-distribution.html',
                 url: '/sponsor-book-distribution'
             })
+            .state('dashboard.ach-debit-form', {
+                templateUrl: 'partials/donate/ach-debit-form.html',
+                url: '/ach-debit-form'
+            })
+
+            .state('dashboard.audio', {
+                templateUrl: 'partials/lectures/audio.html',
+                url: '/audio'
+            })
+            .state('dashboard.video', {
+                templateUrl: 'partials/lectures/video.html',
+                url: '/videos'
+            })
 
     }]);
