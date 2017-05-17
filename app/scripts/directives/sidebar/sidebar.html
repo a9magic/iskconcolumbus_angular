@@ -117,16 +117,7 @@
 
             <!-- Lectures-->
             <li ng-class="{active: collapseVar==6}">
-                <a href="" ng-click="check(6)"><i class="fa fa-book fa-fw"></i> Lectures<span
-                        class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=6">
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.audio" class="fa fa-music"> Audio</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.video" class="fa fa-youtube-play"> Video</a>
-                    </li>
-                </ul>
+                <a ui-sref="dashboard.lectures" ng-click="check(6)"><i class="fa fa-youtube-play"></i> Lectures</a>
             </li>
             <!-- /Lectures-->
 

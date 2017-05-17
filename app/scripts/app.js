@@ -192,13 +192,9 @@ angular
                 url: '/ach-debit-form'
             })
 
-            .state('dashboard.audio', {
-                templateUrl: 'partials/lectures/audio.html',
-                url: '/audio'
-            })
-            .state('dashboard.video', {
+            .state('dashboard.lectures', {
                 templateUrl: 'partials/lectures/video.html',
-                url: '/videos'
+                url: '/lectures'
             })
 
     }]);
