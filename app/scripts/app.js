@@ -197,4 +197,34 @@ angular
                 url: '/lectures'
             })
 
+            .state('dashboard.our-mission', {
+                templateUrl: 'partials/about-us/our-mission.html',
+                url: '/our-mission'
+            })
+            .state('dashboard.governance', {
+                templateUrl: 'partials/about-us/governance.html',
+                url: '/governance'
+            })
+            .state('dashboard.speakers', {
+                templateUrl: 'partials/about-us/speakers.html',
+                url: '/speakers'
+            })
+
+            .state('dashboard.satsang', {
+                templateUrl: 'partials/services/home-programs.html',
+                url: '/home-programs'
+            })
+            .state('dashboard.sunday-school', {
+                templateUrl: 'partials/services/sunday-school.html',
+                url: '/sunday-school'
+            })
+            .state('dashboard.college-outreach', {
+                templateUrl: 'partials/services/college-outreach.html',
+                url: '/college-outreach'
+            })
+            .state('dashboard.book-distribution', {
+                templateUrl: 'partials/services/book-distribution.html',
+                url: '/book-distribution'
+            })
+
     }]);
