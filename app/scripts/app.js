@@ -191,6 +191,10 @@ angular
                 templateUrl: 'partials/donate/ach-debit-form.html',
                 url: '/ach-debit-form'
             })
+            .state('dashboard.pledge-form', {
+                templateUrl: 'partials/donate/pledge-form.html',
+                url: '/pledge'
+            })
 
             .state('dashboard.lectures', {
                 templateUrl: 'partials/lectures/video.html',
