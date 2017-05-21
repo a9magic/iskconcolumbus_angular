@@ -9,13 +9,7 @@
 }
 
 .AnandaNamaste {
-    position: fixed;
-    -webkit-box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.75);
-    font-family: Ananda_Namaste;
-    font-size: 24px;
-    width: 100%;
+    display: none;
 }
 
 .well {
@@ -90,6 +84,19 @@
         height: 200px;
         width: 250px;
         display: inline-block;
+    }
+
+    .AnandaNamaste {
+        position: fixed;
+        /*-webkit-box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.10);*/
+        /*-moz-box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.10);*/
+        /*box-shadow: 2px 9px 40px 0px rgba(0, 0, 0, 0.10);*/
+        font-family: Ananda_Namaste;
+        font-size: 24px;
+        color: #575757;
+        width: 75%;
+        margin: 0 0.5%;
+        display: inline;
     }
 
     .tilak {

@@ -197,6 +197,10 @@ angular
                 url: '/lectures'
             })
 
+            .state('dashboard.contact-us', {
+                templateUrl: 'partials/about-us/contact-us.html',
+                url: '/contact-us'
+            })
             .state('dashboard.our-mission', {
                 templateUrl: 'partials/about-us/our-mission.html',
                 url: '/our-mission'
